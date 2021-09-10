@@ -2,11 +2,13 @@ package org.varin.algorithms;
 
 import static org.junit.Assert.assertArrayEquals;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class RankTransformMatrixTest {
 
 	@Test
+	@Ignore
 	public void testMatrixRankTransform() {
 
 		int[][] matrix = new int[][] { { 1, 2 }, { 3, 4 } };

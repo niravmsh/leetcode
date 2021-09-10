@@ -2,7 +2,6 @@ package org.varin.algorithms;
 
 public class ReverseLinkedList {
 	public ListNode reverseList(ListNode head) {
-		System.out.println(head.val);
 		if (head == null || head.next == null) {
 			return head;
 		} else {

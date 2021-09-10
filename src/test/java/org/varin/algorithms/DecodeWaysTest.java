@@ -8,7 +8,7 @@ public class DecodeWaysTest {
 
 	@Test
 	public void testNumDecodings() {
-		assertEquals(0, new DecodeWays().numDecodings("123"));
+		assertEquals(3, new DecodeWays().numDecodings("123"));
 	}
 
 }

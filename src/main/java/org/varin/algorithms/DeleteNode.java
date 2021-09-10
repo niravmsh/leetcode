@@ -20,7 +20,6 @@ public class DeleteNode {
 		ListNode node = one;
 
 		while (true) {
-			System.out.println("Before: " + node.val);
 			node = node.next;
 			if (null == node) {
 				break;
@@ -32,7 +31,6 @@ public class DeleteNode {
 		node = one;
 
 		while (true) {
-			System.out.println("After: " + node.val);
 			node = node.next;
 			if (null == node) {
 				break;
